@@ -1,5 +1,10 @@
 ---
 title: vue3 插件系统 
+date: 2022-05-08 23:53:14
+categories: 
+- vue3
+tags:
+- vue3
 ---
 
 ## vue3 插件系统

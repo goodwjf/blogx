@@ -2,8 +2,8 @@
 #  Your basic info
 # ---------------------------------------------------------------------------------------
 base_info:
-  title: blogx
-  author: jason
+  title: Jason's Blog
+  author: Jason
   url: https://jason-blogx.netlify.app/
   # Logo image (You can use local image, image external link or don’t fill)
   logo_img:
@@ -71,7 +71,7 @@ menu:
   Archives: /archives
   Categories: /categories
   Tags: /tags
-  # Links: /links
+  Links: /links
   About: /about
   # Changelog: /changelog
   # ......

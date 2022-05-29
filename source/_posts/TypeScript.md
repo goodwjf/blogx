@@ -1,5 +1,10 @@
 ---
 title: TypeScript 基础入门
+date: 2022-05-08 23:53:14
+categories: 
+- TypeScript
+tags:
+- TypeScript
 ---
 # TypeScript
 
