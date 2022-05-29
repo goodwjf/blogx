@@ -13,7 +13,7 @@ KEEP.initUtils = () => {
     pjaxProgressIcon_dom: document.querySelector('.pjax-progress-icon'),
     back2TopButton_dom: document.querySelector('.tool-scroll-to-top'),
 
-    innerHeight: window.innerHeight,
+    innerHeight: window.innerHeight / 4,
     pjaxProgressBarTimer: null,
     prevScrollValue: 0,
     fontSizeLevel: 0,
@@ -25,7 +25,7 @@ KEEP.initUtils = () => {
     styleHandleWhenScroll() {
       const scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
       const scrollHeight = document.body.scrollHeight || document.documentElement.scrollHeight;
-      const clientHeight = window.innerHeight || document.documentElement.clientHeight;
+      const clientHeight = (window.innerHeight || document.documentElement.clientHeight);
 
       const percent = Math.round(scrollTop / (scrollHeight - clientHeight) * 100);
 

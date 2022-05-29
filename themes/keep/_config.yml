@@ -37,8 +37,8 @@ style:
 
   # First screen
   first_screen:
-    enable: false
-    background_img: /images/bg.svg # You can use local image or image external link
+    enable: true
+    background_img: /images/logo.png # You can use local image or image external link
     description: Keep writing and Keep loving.
 
   # Scroll style settings
@@ -52,7 +52,7 @@ style:
 # Social contact link
 # ---------------------------------------------------------------------------------------
 social_contact:
-  enable: false
+  enable: true
   links:
     github: https://github.com/goodwjf # your GitHub URL
     weixin: # your WeChat QR-Code URL

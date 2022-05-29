@@ -9,9 +9,10 @@ $first-screen-img = $temp-img ? $temp-img:'/images/bg.svg';
   box-sizing: border-box;
   width: 100%;
   overflow: hidden;
-  background: url($first-screen-img) center center / cover no-repeat;
-  background-position-y: $header-height;
-
+  background: url($first-screen-img) center center / contain no-repeat;
+//  background-position-y: $header-height;
+  margin-top: 100px;
+  top: 50px;
 
   +keep-tablet() {
     background-position-y: $header-height * 0.9;
@@ -28,6 +29,7 @@ $first-screen-img = $temp-img ? $temp-img:'/images/bg.svg';
     height: 90%;
 
     .description {
+      display: none;
       font-weight: bold;
       font-size: $first-screen-font-size;
       line-height: 1.8;
@@ -42,6 +44,7 @@ $first-screen-img = $temp-img ? $temp-img:'/images/bg.svg';
 
 
     .s-icon-list {
+      display: none;
       position: absolute;
       bottom: 0;
       font-size: $first-screen-icon-size;
